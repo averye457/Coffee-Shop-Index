@@ -14,16 +14,16 @@ html, body {
 
 
 h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
   font-style: normal;
   font-size: 24px;
   margin: 0;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
   font-style: normal;
   font-size: 14px;
   text-decoration: none;
@@ -34,8 +34,8 @@ p {
 }
 
 div a {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
   font-style: normal;
   font-size: 14px;
   text-decoration: none;

@@ -421,6 +421,50 @@ var cremaOne = {
     long: -86.769730
 };
 
+var voidOne = {
+    info: oneFunction('Void Coffee Company', 'Coffee Shop', 'https://goo.gl/maps/qTmdSBCGHnA2', '320 Washington Street West', 'Charleston, WV 25302'),
+
+    lat: 38.361710,
+    long: -81.641308
+};
+
+var messengerOne = {
+    info: oneFunction('Messenger Coffee Co<br />& Ibis Bakery', 'Coffee Shop & Bakery', 'https://goo.gl/maps/AGmc8yBUmJm', '1624 Grand Blvd', 'Kansas City, MO 64108'),
+
+    lat: 39.093520,
+    long: -94.581623
+};
+
+var persephoneOne = {
+    info: oneFunction('Pesephone Bakery', 'Coffee Shop & Bakery', 'https://goo.gl/maps/7LFXj148GH12', '145 E Broadway Ave', 'Jackson, WY 83001'),
+
+    lat: 43.479765,
+    long: -110.760006
+};
+
+var chaleurOne = {
+    info: oneFunction('Chaleur Method Brew<br />+ Espresso', 'Coffee Shop', 'https://goo.gl/maps/S2VFdVjknCz', '1714 Dauphin St', 'Mobile, AL 36604'),
+
+    lat: 30.687042,
+    long: -88.078894
+};
+
+var corvusOne = {
+    info: oneFunction('Corvus Coffee Roasters', 'Coffee Shop', 'https://goo.gl/maps/gpPupaMhYt32', '1740 S Broadway', 'Denver, CO 80210'),
+
+    lat: 39.684913,
+    long: -104.987252
+};
+
+var corvusTwo = {
+    info: oneFunction('Corvus Coffee Roasters', 'Coffee Shop', 'https://goo.gl/maps/ShiK99LsER32', '4925 S Newport St', 'Denver, CO 80237'),
+
+    lat: 39.624990,
+    long: -104.907144
+};
+
+
+
 
 
 
@@ -498,6 +542,12 @@ var cremaOne = {
       [honestOne.info, honestOne.lat, honestOne.long, 54],
       [honestTwo.info, honestTwo.lat, honestTwo.long, 55],
       [cremaOne.info, cremaOne.lat, cremaOne.long, 56],
+      [voidOne.info, voidOne.lat, voidOne.long, 57],
+      [messengerOne.info, messengerOne.lat, messengerOne.long, 58],
+      [persephoneOne.info, persephoneOne.lat, persephoneOne.long, 59],
+      [chaleurOne.info, chaleurOne.lat, chaleurOne.long, 60],
+      [corvusOne.info, corvusOne.lat, corvusOne.long, 61],
+      [corvusOne.info, corvusTwo.lat, corvusTwo.long, 62],
     ];
 
   var map = new google.maps.Map(document.getElementById('map'), {

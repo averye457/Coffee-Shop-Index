@@ -133,6 +133,11 @@ footer {
     display: inline-block;
   }
 
+  .buttons {
+    padding: 10px 25px;
+    margin-right: 10px;
+  }
+
   .center {
     align-items: flex-start;
     padding-top: 100px;

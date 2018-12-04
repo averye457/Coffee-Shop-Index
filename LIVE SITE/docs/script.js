@@ -463,6 +463,126 @@ var corvusTwo = {
     long: -104.907144
 };
 
+var loyalOne = {
+    info: oneFunction('Loyal Coffee', 'Coffee Shop', 'https://goo.gl/maps/Ux2WPKrSGCK2', '408 S Nevada Ave', 'Colorado Springs, CO 80903'),
+
+    lat: 38.827805,
+    long: -104.822335
+};
+
+var chromeyellowOne = {
+    info: oneFunction('Chrome Yellow Trading Co.', 'Coffee Shop & Store', 'https://goo.gl/maps/3WNcZUQnZKu', '501 Edgewood Ave SE', 'Atlanta, GA 30312'),
+
+    lat: 33.753893,
+    long: -84.371021
+};
+
+var pleaseandthanksOne = {
+    info: oneFunction('Please & Thank You', 'Coffee Shop & Record Store', 'https://goo.gl/maps/RSDeUfEBbsD2', '800 E Market St', 'Louisville, KY 40206'),
+
+    lat: 38.253005,
+    long: -85.737893
+};
+
+var pleaseandthanksTwo = {
+    info: oneFunction('Please & Thank You', 'Coffee Shop', 'https://goo.gl/maps/Apzd31UQyhT2', '2341 Frankfort Ave', 'Louisville, KY 40206'),
+
+    lat: 38.253682,
+    long: -85.701428
+};
+
+var pleaseandthanksThree = {
+    info: oneFunction('Please & Thank You', 'Coffee Shop', 'https://goo.gl/maps/HNXCn732RRk', '252 E Market St', 'Louisville, KY 40204'),
+
+    lat: 38.254045,
+    long: -85.748408
+};
+
+var secondstateOne = {
+    info: oneFunction('Second State Coffee', 'Coffee Shop', 'https://goo.gl/maps/uTGFeupCkmK2', '70.5 Beaufain St', 'Charleston, SC 29401'),
+
+    lat: 32.779886,
+    long: -79.937666
+};
+
+var saintfranksOne = {
+    info: oneFunction('Saint Frank', 'Coffee Shop', 'https://goo.gl/maps/zPav2bGBVR62', '2340 Polk St', 'San Francisco, CA 94109'),
+
+    lat: 37.798479,
+    long: -122.422188
+};
+
+var saintfranksTwo = {
+    info: oneFunction('Saint Frank', 'Coffee Shop', 'https://goo.gl/maps/zPav2bGBVR62', '1081 Mission St', 'San Francisco, CA 94103'),
+
+    lat: 37.779469,
+    long: -122.410290
+};
+
+var caferoseOne = {
+    info: oneFunction('Cafe Roze', 'Coffee Shop & All-Day Cafe', 'https://goo.gl/maps/Wg9mSa23nHx', '1115 Porter Rd', 'Nashville, TN 37206'),
+
+    lat: 36.188609,
+    long: -86.729116
+};
+
+var veloOne = {
+    info: oneFunction('Velo Coffee Roasters', 'Coffee Roaster with Service', 'https://goo.gl/maps/RdzrG4ywKm72', '1410, 509 E Main St #3', 'Chattanooga, TN 37408'),
+
+    lat: 35.033985,
+    long: -85.301419
+};
+
+var kbrewOne = {
+    info: oneFunction('K Brew', 'Coffee Shop', 'https://goo.gl/maps/1m9ATqiY1oz', '1138 N Broadway', 'Knoxville, TN 37917'),
+
+    lat: 35.983771,
+    long: -83.922141
+};
+
+var amethystOne = {
+    info: oneFunction('Amethyst Coffee', 'Coffee Shop', 'https://goo.gl/maps/zo9Nh6BW3K62', '1111 Broadway #101', 'Denver, CO 80203'),
+
+    lat: 39.734137,
+    long: -104.987665
+};
+
+var amethystTwo = {
+    info: oneFunction('Amethyst Coffee', 'Coffee Shop', 'https://goo.gl/maps/tf5pkKy2T2H2', '4999 W 44th Ave', 'Denver, CO 80212'),
+
+    lat: 39.776727,
+    long: -105.050661
+};
+
+var baristaalleyOne = {
+    info: oneFunction('Barista Alley', 'Coffee Shop & Smoothie Bar', 'https://goo.gl/maps/9Yo6HvxuHjq', '125 E Poinsett St', 'Greer, SC 29651'),
+
+    lat: 34.938428,
+    long: -82.226168
+};
+
+var hiddenhouseOne = {
+    info: oneFunction('Hidden House Coffee', 'Coffee Shop', 'https://goo.gl/maps/2EMAzHcfU922', '511 E Santa Ana Blvd', 'Santa Ana, CA 92701'),
+
+    lat: 33.750432,
+    long: -117.863091
+};
+
+var theboyandthebearOne = {
+    info: oneFunction('The Boy & the Bear', 'Coffee Shop', 'https://goo.gl/maps/FHFCbM7g8ES2', '12712 W Washington Blvd Suite 101', 'Los Angeles, CA 90066'),
+
+    lat: 33.996553,
+    long: -118.434946
+};
+
+var theboyandthebearTwo = {
+    info: oneFunction('The Boy & the Bear', 'Coffee Shop', 'https://goo.gl/maps/vXTyfKPJkxR2', '350 N Pacific Coast Hwy', 'Redondo Beach, CA 90277'),
+
+    lat: 33.847128,
+    long: -118.387487
+};
+
+
 
 
 
@@ -547,7 +667,24 @@ var corvusTwo = {
       [persephoneOne.info, persephoneOne.lat, persephoneOne.long, 59],
       [chaleurOne.info, chaleurOne.lat, chaleurOne.long, 60],
       [corvusOne.info, corvusOne.lat, corvusOne.long, 61],
-      [corvusOne.info, corvusTwo.lat, corvusTwo.long, 62],
+      [corvusTwo.info, corvusTwo.lat, corvusTwo.long, 62],
+      [loyalOne.info, loyalOne.lat, loyalOne.long, 63],
+      [chromeyellowOne.info, chromeyellowOne.lat, chromeyellowOne.long, 64],
+      [pleaseandthanksOne.info, pleaseandthanksOne.lat, pleaseandthanksOne.long, 65],
+      [pleaseandthanksTwo.info, pleaseandthanksTwo.lat, pleaseandthanksTwo.long, 66],
+      [pleaseandthanksThree.info, pleaseandthanksThree.lat, pleaseandthanksThree.long, 67],
+      [secondstateOne.info, secondstateOne.lat, secondstateOne.long, 68],
+      [saintfranksOne.info, saintfranksOne.lat, saintfranksOne.long, 69],
+      [saintfranksTwo.info, saintfranksTwo.lat, saintfranksTwo.long, 70],
+      [caferoseOne.info, caferoseOne.lat, caferoseOne.long, 71],
+      [veloOne.info, veloOne.lat, veloOne.long, 72],
+      [kbrewOne.info, kbrewOne.lat, kbrewOne.long, 73],
+      [amethystOne.info, amethystOne.lat, amethystOne.long, 74],
+      [amethystTwo.info, amethystTwo.lat, amethystTwo.long, 75],
+      [baristaalleyOne.info, baristaalleyOne.lat, baristaalleyOne.long, 76],
+      [hiddenhouseOne.info, hiddenhouseOne.lat, hiddenhouseOne.long, 77],
+      [theboyandthebearOne.info, theboyandthebearOne.lat, theboyandthebearOne.long, 78],
+      [theboyandthebearTwo.info, theboyandthebearTwo.lat, theboyandthebearTwo.long, 79],
     ];
 
   var map = new google.maps.Map(document.getElementById('map'), {

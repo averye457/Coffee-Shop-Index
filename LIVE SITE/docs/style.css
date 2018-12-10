@@ -25,25 +25,16 @@ html, body {
   align-items: flex-start;
 }
 
+.gif {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
 
 .imgOne {
-  width: 500px;
-  height: auto;
-  padding: 0;
-  margin: 0;
-}
-
-.imgTwo {
-  display: none;
-  width: 400px;
-  height: auto;
-  padding: 0;
-  margin: 0;
-}
-
-.imgThree {
-  display: none;
-  width: 280px;
+  width: 200px;
   height: auto;
   padding: 0;
   margin: 0;
@@ -57,6 +48,17 @@ p {
   opacity: .9;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.parOne {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
 }
 
 .button-container {
@@ -125,14 +127,6 @@ footer {
     width: 350px;
   }
 
-  .imgOne {
-    display: none;
-  }
-
-  .imgTwo {
-    display: inline-block;
-  }
-
   .buttons {
     padding: 10px 25px;
     margin-right: 10px;
@@ -154,14 +148,6 @@ footer {
 
   .flex-box {
     width: 280px;
-  }
-
-  .imgTwo {
-    display: none;
-  }
-
-  .imgThree {
-    display: inline-block;
   }
 
   .buttons {

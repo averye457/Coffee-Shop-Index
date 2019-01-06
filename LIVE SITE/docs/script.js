@@ -582,6 +582,48 @@ var theboyandthebearTwo = {
     long: -118.387487
 };
 
+var retrogradeOne = {
+    info: oneFunction('Retrograde Coffee', 'Coffee Shop', 'https://goo.gl/maps/MYKfBAm9af22', '1305 Dickerson Pike', 'Nashville, TN 37207'),
+
+    lat: 36.195047,
+    long: -86.771829
+};
+
+var postcommonsOne = {
+    info: oneFunction('Post Commons', 'Coffee Shop', 'https://goo.gl/maps/ieUECF9CapB2', '300 Alby St', 'Alton, IL 62002'),
+
+    lat: 38.891259,
+    long: -90.184550
+};
+
+var octaneOne = {
+    info: oneFunction('Octane Coffee', 'Coffee Shop', 'https://goo.gl/maps/s4kJ9NFH8R92', '1009 Marietta St NW', 'Atlanta, GA 30318'),
+
+    lat: 33.779410,
+    long: -84.410264
+};
+
+var octaneTwo = {
+    info: oneFunction('Octane Coffee', 'Coffee Shop', 'https://goo.gl/maps/nHokvRCjSPA2', 'Suite 100-A, 1280 Peachtree St NE', 'Atlanta, GA 30309'),
+
+    lat: 33.789703,
+    long: -84.384943
+};
+
+var octaneThree = {
+    info: oneFunction('Octane Coffee', 'Coffee Shop', 'https://goo.gl/maps/mRbHYX4SQWv', '2221 Richard Arrington Jr Blvd N', 'Birmingham, AL 35203'),
+
+    lat: 33.525780,
+    long: -86.808051
+};
+
+var octaneFour = {
+    info: oneFunction('Octane Coffee', 'Coffee Shop', 'https://goo.gl/maps/fdiSycCdv8U2', '2822 Central Ave', 'Homewood, AL 35209'),
+
+    lat: 33.479564,
+    long: -86.795683
+};
+
 
 
 
@@ -685,6 +727,12 @@ var theboyandthebearTwo = {
       [hiddenhouseOne.info, hiddenhouseOne.lat, hiddenhouseOne.long, 77],
       [theboyandthebearOne.info, theboyandthebearOne.lat, theboyandthebearOne.long, 78],
       [theboyandthebearTwo.info, theboyandthebearTwo.lat, theboyandthebearTwo.long, 79],
+      [retrogradeOne.info, retrogradeOne.lat, retrogradeOne.long, 80],
+      [postcommonsOne.info, postcommonsOne.lat, postcommonsOne.long, 81],
+      [octaneOne.info, octaneOne.lat, octaneOne.long, 82],
+      [octaneTwo.info, octaneTwo.lat, octaneTwo.long, 82],
+      [octaneThree.info, octaneThree.lat, octaneThree.long, 82],
+      [octaneFour.info, octaneFour.lat, octaneFour.long, 82],
     ];
 
   var map = new google.maps.Map(document.getElementById('map'), {

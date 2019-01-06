@@ -429,7 +429,7 @@ var voidOne = {
 };
 
 var messengerOne = {
-    info: oneFunction('Messenger Coffee Co<br />& Ibis Bakery', 'Coffee Shop & Bakery', 'https://goo.gl/maps/AGmc8yBUmJm', '1624 Grand Blvd', 'Kansas City, MO 64108'),
+    info: oneFunction('Messenger Coffee Co', 'Coffee Shop & Bakery', 'https://goo.gl/maps/AGmc8yBUmJm', '1624 Grand Blvd', 'Kansas City, MO 64108'),
 
     lat: 39.093520,
     long: -94.581623
@@ -624,6 +624,27 @@ var octaneFour = {
     long: -86.795683
 };
 
+var colonykcOne = {
+    info: oneFunction('Colony KC', 'Coffee Shop', 'https://goo.gl/maps/q7uby3xBpU42', '312 Armour Rd', 'North Kansas City, MO 64116'),
+
+    lat: 39.142277,
+    long: -94.576576
+};
+
+var blackeyeOne = {
+    info: oneFunction('Black Eye Coffee', 'Coffee Shop', 'https://goo.gl/maps/2EmtYAEGZzt', '3408 Navajo St', 'Denver, CO 80211'),
+
+    lat: 39.764695,
+    long: -105.003965
+};
+
+var blackeyeOne = {
+    info: oneFunction('Black Eye Coffee', 'Coffee Shop', 'https://goo.gl/maps/2EmtYAEGZzt', '3408 Navajo St', 'Denver, CO 80211'),
+
+    lat: 39.764695,
+    long: -105.003965
+};
+
 
 
 
@@ -730,9 +751,11 @@ var octaneFour = {
       [retrogradeOne.info, retrogradeOne.lat, retrogradeOne.long, 80],
       [postcommonsOne.info, postcommonsOne.lat, postcommonsOne.long, 81],
       [octaneOne.info, octaneOne.lat, octaneOne.long, 82],
-      [octaneTwo.info, octaneTwo.lat, octaneTwo.long, 82],
-      [octaneThree.info, octaneThree.lat, octaneThree.long, 82],
-      [octaneFour.info, octaneFour.lat, octaneFour.long, 82],
+      [octaneTwo.info, octaneTwo.lat, octaneTwo.long, 83],
+      [octaneThree.info, octaneThree.lat, octaneThree.long, 84],
+      [octaneFour.info, octaneFour.lat, octaneFour.long, 85],
+      [colonykcOne.info, colonykcOne.lat, colonykcOne.long, 86],
+      [blackeyeOne.info, blackeyeOne.lat, blackeyeOne.long, 87],
     ];
 
   var map = new google.maps.Map(document.getElementById('map'), {

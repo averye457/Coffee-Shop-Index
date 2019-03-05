@@ -645,6 +645,120 @@ var blackeyeOne = {
     long: -105.003965
 };
 
+var hardenOne = {
+    info: oneFunction('Harden Coffee', 'Coffee Shop', 'https://goo.gl/maps/CmpzqvEsDo22', '202 East Main Street', 'Campbellsville, KY 42718'),
+
+    lat: 37.340923,
+    long: -85.343947
+};
+
+var ilLupoOne = {
+    info: oneFunction('il Lupo Coffee', 'Coffee Shop', 'https://goo.gl/maps/WXDwv5QrBZK2', '8RVV+FH', 'Jackson, Mississippi 39211'),
+
+    lat: 32.343747,
+    long: -90.156036
+};
+
+var greaterGoodOne = {
+    info: oneFunction('Greater Goods Coffee Roasters', 'Coffee Shop' , 'https://goo.gl/maps/zgMmVihsqFu', '2501 East 5th Street', 'Austin, TX 78702'),
+
+    lat: 30.257685,
+    long: -97.714981
+};
+
+var greaterGoodTwo = {
+    info: oneFunction('Greater Goods Coffee Roasters', 'Coffee Shop & Roastery' , 'https://goo.gl/maps/nJ8QmEd5eb32', '160 McGregor Lane', 'Dripping Springs, TX 78620'),
+
+    lat: 30.208048,
+    long: -98.141031
+};
+
+var greaterGoodThree = {
+    info: oneFunction('Greater Goods Coffee Roasters', 'Coffee Shop' , 'https://goo.gl/maps/Umn76P4RUD52', '12005 Bee Cave Road #4B', 'Bee Cave, TX 78738'),
+
+    lat: 30.307696,
+    long: -97.927098
+};
+
+var meritOne = {
+    info: oneFunction('Merit Coffee', 'Coffee Shop' , 'https://goo.gl/maps/jXzicZ2s3Wn', '222 West Ave #120', 'Austin, TX 78701'),
+
+    lat: 30.267594,
+    long: -97.752088
+};
+
+var meritTwo = {
+    info: oneFunction('Merit Coffee', 'Coffee Shop' , 'https://goo.gl/maps/mg1ZdbqApay', '1105 S Lamar Blvd', 'Austin, TX 78704'),
+
+    lat: 30.255275,
+    long: -97.761778
+};
+
+var meritThree= {
+    info: oneFunction('Merit Coffee', 'Coffee Shop' , 'https://goo.gl/maps/WoiTnrcPenS2', '700 E Sonterra Blvd #1113', 'San Antonio, TX 78258'),
+
+    lat: 29.614300,
+    long: -98.484035
+};
+
+var meritFour= {
+    info: oneFunction('Merit Coffee', 'Coffee Shop' , 'https://goo.gl/maps/YoHWRwUEep62', '302 Pearl Pkwy', 'San Antonio, TX 78215'),
+
+    lat: 29.442191,
+    long: -98.479540
+};
+
+var meritFive= {
+    info: oneFunction('Merit Coffee', 'Coffee Shop' , 'https://goo.gl/maps/oCp2j88ixdU2', '7338 Louis Pasteur Dr #204', 'San Antonio, TX 78229'),
+
+    lat: 29.503428,
+    long: -98.574261
+};
+
+var meritSix= {
+    info: oneFunction('Merit Coffee', 'Coffee Shop' , 'https://goo.gl/maps/rrGyp5nykP82', '24175 I-10 #110', 'San Antonio, TX 78257'),
+
+    lat: 29.666040,
+    long: -98.632636
+};
+
+var meritSeven= {
+    info: oneFunction('Merit Coffee', 'Coffee Shop' , 'https://goo.gl/maps/2eVUQRZTMyw', '4115 Pond, Hill Ln Suite 101', 'San Antonio, TX 78231'),
+
+    lat: 29.597964,
+    long: -98.563303
+};
+
+var rivalBrosOne = {
+    info: oneFunction('Rival Bros Coffee Bar', 'Coffee Bar' , 'https://goo.gl/maps/PAaUmFCUiXn', '2400 Lombard Street', 'Philadelphia, PA 19146'),
+
+    lat: 39.946481,
+    long: -75.180650
+};
+
+var rivalBrosTwo = {
+    info: oneFunction('Rival Bros Coffee Bar', 'Coffee Bar' , 'https://goo.gl/maps/PRbvgThqTYF2', '1528 Spruce Street', 'Philadelphia, PA 19102'),
+
+    lat: 39.947240,
+    long: -75.167733
+};
+
+var rivalBrosThree = {
+    info: oneFunction('Rival Bros Coffee Bar', 'Coffee Bar' , 'https://goo.gl/maps/M5Kyz2XcLg22', '1100 Tasker Street', 'Philadelphia, PA 19148'),
+
+    lat: 39.929732,
+    long: -75.163243
+};
+
+var publicEspressoOne = {
+    info: oneFunction('Public Espresso + Coffee', 'Coffee Shop' , 'https://goo.gl/maps/sS9yJu6rUo12', '391 Washington Street', 'Buffalo, NY 14203'),
+
+    lat: 42.885101,
+    long: -78.873254
+};
+
+
+
 
 
 
@@ -756,6 +870,22 @@ var blackeyeOne = {
       [octaneFour.info, octaneFour.lat, octaneFour.long, 85],
       [colonykcOne.info, colonykcOne.lat, colonykcOne.long, 86],
       [blackeyeOne.info, blackeyeOne.lat, blackeyeOne.long, 87],
+      [hardenOne.info, hardenOne.lat, hardenOne.long, 88],
+      [ilLupoOne.info, ilLupoOne.lat, ilLupoOne.long, 89],
+      [greaterGoodOne.info, greaterGoodOne.lat, greaterGoodOne.long, 90],
+      [greaterGoodTwo.info, greaterGoodTwo.lat, greaterGoodTwo.long, 91],
+      [greaterGoodThree.info, greaterGoodThree.lat, greaterGoodThree.long, 92],
+      [meritOne.info, meritOne.lat, meritOne.long, 93],
+      [meritTwo.info, meritTwo.lat, meritTwo.long, 94],
+      [meritThree.info, meritThree.lat, meritThree.long, 95],
+      [meritFour.info, meritFour.lat, meritFour.long, 96],
+      [meritFive.info, meritFive.lat, meritFive.long, 97],
+      [meritSix.info, meritSix.lat, meritSix.long, 98],
+      [meritSeven.info, meritSeven.lat, meritSeven.long, 99],
+      [rivalBrosOne.info, rivalBrosOne.lat, rivalBrosOne.long, 100],
+      [rivalBrosTwo.info, rivalBrosTwo.lat, rivalBrosTwo.long, 101],
+      [rivalBrosThree.info, rivalBrosThree.lat, rivalBrosThree.long, 102],
+      [publicEspressoOne.info, publicEspressoOne.lat, publicEspressoOne.long, 103],
     ];
 
   var map = new google.maps.Map(document.getElementById('map'), {

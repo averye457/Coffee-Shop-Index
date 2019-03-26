@@ -757,6 +757,124 @@ var publicEspressoOne = {
     long: -78.873254
 };
 
+var monarchOne = {
+    info: oneFunction('Monarch Coffee', 'Coffee Shop' , 'https://goo.gl/maps/KcURqho7nRQ2', '3550 Broadway Blvd', 'Kansas City, MO 64111'),
+
+    lat: 39.062604,
+    long: -94.590584
+};
+
+var neverOne = {
+    info: oneFunction('Never Coffee Lab', 'Coffee Shop' , 'https://goo.gl/maps/aEzLheDRXuS2', '34243 SE Belmont St #200', 'Portland, OR 97215'),
+
+    lat: 45.516661,
+    long: -122.618777
+};
+
+var novaOne = {
+    info: oneFunction('Nova Espresso', 'Coffee Shop' , 'https://goo.gl/maps/XegzqGpgBiQ2', '306 Saint Athony Street', 'Mobile, AL 36603'),
+
+    lat: 30.694224,
+    long: -88.047102
+};
+
+var blueCopperOne = {
+    info: oneFunction('Blue Copper Coffee Room', 'Coffee Shop' , 'https://goo.gl/maps/7Ht8eBS1jNR2', '179 W 900 S', 'Salt Lake City, UT 84101'),
+
+    lat: 40.749539,
+    long: -111.896236
+};
+
+var sweetLalasOne = {
+    info: oneFunction("Sweet Lala's Bakery", 'Bakery & Coffee Shop' , 'https://goo.gl/maps/qmZdnEfcoc72', '6150 Poplar Ave Suite 118', 'Memphis, TN 38119'),
+
+    lat: 35.102971,
+    long: -89.857792
+};
+
+var cornerPerkOne = {
+    info: oneFunction('Corner Perk', 'Coffee Shop' , 'https://goo.gl/maps/KgvRhLUHR342', '1297 May River Rd #101', 'Bluffton, SC 29910'),
+
+    lat: 32.237372,
+    long: -80.861905
+};
+
+var notJustCoffeeOne = {
+    info: oneFunction('Not Just Coffee', 'Coffee Shop' , 'https://goo.gl/maps/MFEaf6C7fuv', '224 E 7th St', 'Charlotte, NC 28202'),
+
+    lat: 35.227440,
+    long: -80.838239
+};
+
+var notJustCoffeeTwo = {
+    info: oneFunction('Not Just Coffee', 'Coffee Shop' , 'https://goo.gl/maps/T9KZMWhNCpr', '222 S Church St', 'Charlotte, NC 28202'),
+
+    lat: 35.226997,
+    long: -80.845969
+};
+
+var notJustCoffeeThree = {
+    info: oneFunction('Not Just Coffee', 'Coffee Shop' , 'https://goo.gl/maps/35kQKv1F5cL2', '2000 South Blvd', 'Charlotte, NC 28203'),
+
+    lat: 35.209313,
+    long: -80.860876
+};
+
+var notJustCoffeeFour = {
+    info: oneFunction('Not Just Coffee', 'Coffee Shop' , 'https://goo.gl/maps/6KF9MYnrn142', '421 Providence Rd', 'Charlotte, NC 28207'),
+
+    lat: 35.204189,
+    long: -80.824238
+};
+
+var notJustCoffeeFive = {
+    info: oneFunction('Not Just Coffee', 'Coffee Shop' , 'https://goo.gl/maps/qHB6v62joRw', '2230 Park Rd Suite 102', 'Charlotte, NC 28203'),
+
+    lat: 35.199070,
+    long: -80.852526
+};
+
+var honeybeeOne = {
+    info: oneFunction('HoneyBee Coffee', 'Coffee Shop' , 'https://goo.gl/maps/aAgiFLBHKKS2', '700 Sevier Ave', 'Knoxville, TN 37920'),
+
+    lat: 35.957369,
+    long: -83.908974
+};
+
+var honeybeeTwo = {
+    info: oneFunction('HoneyBee Coffee', 'Coffee Shop' , 'https://goo.gl/maps/5i7J2tqjS712', '10716 Kingston Pike', 'Knoxville, TN 37934'),
+
+    lat: 35.894562,
+    long: -84.138958
+};
+
+var laBarbaOne = {
+    info: oneFunction('La Barba Coffee', 'Coffee Shop' , 'https://goo.gl/maps/MHNTWWuoot62', '113811 Sprague Ln', 'Draper, UT 84020'),
+
+    lat: 40.500391,
+    long: -111.887293
+};
+
+var laBarbaTwo = {
+    info: oneFunction('La Barba Coffee', 'Coffee Shop' , 'https://goo.gl/maps/8HGn6BcmSLR2', '327 W 200 S', 'Salt Lake City, UT 84101'),
+
+    lat: 40.764976,
+    long: -111.900810
+};
+
+var laBarbaThree = {
+    info: oneFunction('La Barba Coffee', 'Coffee Shop' , 'https://goo.gl/maps/x6KTwVJk9NA2', '9 S Rio Grande St', 'Salt Lake City, UT 84101'),
+
+    lat: 40.768899,
+    long: -111.903866
+};
+
+var falconOne = {
+    info: oneFunction('Falcon Coffee Bar', 'Coffee Shop' , 'https://goo.gl/maps/5kBvwLaox962', '509 Houston St', 'SNashville, TN 37203'),
+
+    lat: 36.142684,
+    long: -86.768328
+};
 
 
 
@@ -886,6 +1004,23 @@ var publicEspressoOne = {
       [rivalBrosTwo.info, rivalBrosTwo.lat, rivalBrosTwo.long, 101],
       [rivalBrosThree.info, rivalBrosThree.lat, rivalBrosThree.long, 102],
       [publicEspressoOne.info, publicEspressoOne.lat, publicEspressoOne.long, 103],
+      [monarchOne.info, monarchOne.lat, monarchOne.long, 104],
+      [neverOne.info, neverOne.lat, neverOne.long, 105],
+      [novaOne.info, novaOne.lat, novaOne.long, 106],
+      [blueCopperOne.info, blueCopperOne.lat, blueCopperOne.long, 107],
+      [sweetLalasOne.info, sweetLalasOne.lat, sweetLalasOne.long, 108],
+      [cornerPerkOne.info, cornerPerkOne.lat, cornerPerkOne.long, 109],
+      [notJustCoffeeOne.info, notJustCoffeeOne.lat, notJustCoffeeOne.long, 110],
+      [notJustCoffeeTwo.info, notJustCoffeeTwo.lat, notJustCoffeeTwo.long, 111],
+      [notJustCoffeeThree.info, notJustCoffeeThree.lat, notJustCoffeeThree.long, 112],
+      [notJustCoffeeFour.info, notJustCoffeeFour.lat, notJustCoffeeFour.long, 113],
+      [notJustCoffeeFive.info, notJustCoffeeFive.lat, notJustCoffeeFive.long, 114],
+      [honeybeeOne.info, honeybeeOne.lat, honeybeeOne.long, 115],
+      [honeybeeTwo.info, honeybeeTwo.lat, honeybeeTwo.long, 116],
+      [laBarbaOne.info, laBarbaOne.lat, laBarbaOne.long, 117],
+      [laBarbaTwo.info, laBarbaTwo.lat, laBarbaTwo.long, 118],
+      [laBarbaThree.info, laBarbaThree.lat, laBarbaThree.long, 119],
+      [falconOne.info, falconOne.lat, falconOne.long, 120],
     ];
 
   var map = new google.maps.Map(document.getElementById('map'), {

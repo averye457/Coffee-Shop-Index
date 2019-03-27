@@ -870,10 +870,17 @@ var laBarbaThree = {
 };
 
 var falconOne = {
-    info: oneFunction('Falcon Coffee Bar', 'Coffee Shop' , 'https://goo.gl/maps/5kBvwLaox962', '509 Houston St', 'SNashville, TN 37203'),
+    info: oneFunction('Falcon Coffee Bar', 'Coffee Shop' , 'https://goo.gl/maps/5kBvwLaox962', '509 Houston St', 'Nashville, TN 37203'),
 
     lat: 36.142684,
     long: -86.768328
+};
+
+var manchesterOne = {
+    info: oneFunction('Manchester Coffee Co.', 'Coffee Shop' , 'https://goo.gl/maps/jiFukLb1y2P2', '903 Manchester St St. 180', 'Lexington, KY 40508'),
+
+    lat: 38.053286,
+    long: -84.509601
 };
 
 
@@ -1021,6 +1028,7 @@ var falconOne = {
       [laBarbaTwo.info, laBarbaTwo.lat, laBarbaTwo.long, 118],
       [laBarbaThree.info, laBarbaThree.lat, laBarbaThree.long, 119],
       [falconOne.info, falconOne.lat, falconOne.long, 120],
+      [manchesterOne.info, manchesterOne.lat, manchesterOne.long, 121],
     ];
 
   var map = new google.maps.Map(document.getElementById('map'), {

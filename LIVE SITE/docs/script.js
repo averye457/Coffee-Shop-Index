@@ -932,6 +932,13 @@ var collectiveEspressoTwo = {
     long: -84.539645
 };
 
+var steadfastOne = {
+    info: oneFunction('Steadfast Coffee', 'Coffee Shop' , 'https://goo.gl/maps/9KssEMjDMJN2', '603 Taylor St', 'Nashville, TN 37208'),
+
+    lat: 36.177825,
+    long: -86.791482
+};
+
 
 
 
@@ -1085,6 +1092,7 @@ var collectiveEspressoTwo = {
       [carabelloOne.info, carabelloOne.lat, carabelloOne.long, 126],
       [collectiveEspressoOne.info, collectiveEspressoOne.lat, collectiveEspressoOne.long, 127],
       [collectiveEspressoTwo.info, collectiveEspressoTwo.lat, collectiveEspressoTwo.long, 128],
+      [steadfastOne.info, steadfastOne.lat, steadfastOne.long, 129],
     ];
 
   var map = new google.maps.Map(document.getElementById('map'), {

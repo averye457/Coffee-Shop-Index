@@ -883,6 +883,55 @@ var manchesterOne = {
     long: -84.509601
 };
 
+var redhawkOne = {
+    info: oneFunction('Redhawk Coffee', 'Coffee Shop' , 'https://goo.gl/maps/nAYTAE5XLQF2', '120 Meyran Ave', 'Pittsburgh, PA 15213'),
+
+    lat: 40.440699,
+    long: -79.958652
+};
+
+var redhawkTwo = {
+    info: oneFunction('Redhawk Coffee', 'Coffee Shop' , 'https://goo.gl/maps/76PNvKbNgpk', '536 Smithfield St', 'Pittsburgh, PA 15222'),
+
+    lat: 40.441135,
+    long: -79.997780
+};
+
+var deeperRootsOne = {
+    info: oneFunction('Deeper Roots Coffee', 'Coffee Shop' , 'https://goo.gl/maps/NKJdm7rV5p72', '3056 Madison Rd', 'Cincinnati, OH 45209'),
+
+    lat: 39.152172,
+    long: -84.431952
+};
+
+var deeperRootsTwo = {
+    info: oneFunction('Deeper Roots Coffee', 'Coffee Shop' , 'https://goo.gl/maps/7ANePEmpBK62', '1814 Race St', 'Cincinnati, OH 45202'),
+
+    lat: 39.115938,
+    long: -84.518135
+};
+
+var carabelloOne = {
+    info: oneFunction('Carabello Coffee Company', 'Coffee Shop' , 'https://goo.gl/maps/VcVSru2BdSq', '107 E 9th St', 'Newport, KY 41071'),
+
+    lat: 39.088613,
+    long: -84.490019
+};
+
+var collectiveEspressoOne = {
+    info: oneFunction('Collective Espresso', 'Coffee Shop' , 'https://goo.gl/maps/6xvgrpj4RaU2', '207 Woodward St', 'Cincinnati, OH 45202'),
+
+    lat: 39.110402,
+    long: -84.511534
+};
+
+var collectiveEspressoTwo = {
+    info: oneFunction('Collective Espresso', 'Coffee Shop' , 'https://goo.gl/maps/99QrohVTy1z', '4037 Hamilton Ave', 'Cincinnati, OH 45223'),
+
+    lat: 39.159791,
+    long: -84.539645
+};
+
 
 
 
@@ -1029,6 +1078,13 @@ var manchesterOne = {
       [laBarbaThree.info, laBarbaThree.lat, laBarbaThree.long, 119],
       [falconOne.info, falconOne.lat, falconOne.long, 120],
       [manchesterOne.info, manchesterOne.lat, manchesterOne.long, 121],
+      [redhawkOne.info, redhawkOne.lat, redhawkOne.long, 122],
+      [redhawkTwo.info, redhawkTwo.lat, redhawkTwo.long, 123],
+      [deeperRootsOne.info, deeperRootsOne.lat, deeperRootsOne.long, 124],
+      [deeperRootsTwo.info, deeperRootsTwo.lat, deeperRootsTwo.long, 125],
+      [carabelloOne.info, carabelloOne.lat, carabelloOne.long, 126],
+      [collectiveEspressoOne.info, collectiveEspressoOne.lat, collectiveEspressoOne.long, 127],
+      [collectiveEspressoTwo.info, collectiveEspressoTwo.lat, collectiveEspressoTwo.long, 128],
     ];
 
   var map = new google.maps.Map(document.getElementById('map'), {

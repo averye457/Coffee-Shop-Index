@@ -15,14 +15,14 @@ function initMap() {
 
 
 	let dailyOffOne = {
-		info: oneFunction('Daily Offerings', 'Coffee Shop & Roastery', 'https://goo.gl/maps/HXQC8yGDfnE2', '29 W Main St', 'Lexington, KY 40507'),
+		info: oneFunction('Barista Social', 'Coffee Shop', 'https://goo.gl/maps/HXQC8yGDfnE2', '29 W Main St', 'Lexington, KY 40507'),
 
 		lat: 38.050015,
 		long: -84.500021
 	};
 
 	let dailyOffTwo = {
-    info: oneFunction('Daily Offerings', 'Coffee Shop', 'https://goo.gl/maps/Qn3cyLWLr2D2', '124 Malabu Dr #110', 'Lexington, KY 40503'),
+    info: oneFunction('Barista Social', 'Coffee Shop', 'https://goo.gl/maps/Qn3cyLWLr2D2', '124 Malabu Dr #110', 'Lexington, KY 40503'),
 
 		lat: 37.994670,
 		long: -84.508370

@@ -932,6 +932,113 @@ let steadfastOne = {
     long: -86.791482
 };
 
+let embassyOne = {
+    info: oneFunction('Embassy Coffee Co.', 'Coffee Shop' , 'https://goo.gl/maps/31TbakJpDMEA2ThG7', '209 W Lincoln Ave', 'Goshen, IN 46528'),
+
+    lat: 41.586643,
+    long: -85.836827
+};
+
+let peaksOne = {
+    info: oneFunction('Peaks Coffee Company', 'Coffee Shop' , 'https://goo.gl/maps/jDZifX8SycKtkPvx8', '1200 E Genesee St', 'Syracuse, NY 13210'),
+
+    lat: 43.046601,
+    long: -76.131652
+};
+
+let pearlOne = {
+    info: oneFunction('Pearl on Union', 'Coffee Shop' , 'https://goo.gl/maps/XZDdBLdbQs9cp1NX9', '513 Union Ave SW', 'Knoxville, TN 37902'),
+
+    lat: 35.964367,
+    long: -83.920682
+};
+
+let seyOne = {
+    info: oneFunction('SEY COFFEE', 'Coffee Shop' , 'https://goo.gl/maps/atqHnQUzUmjpgN3PA', '18 Grattan St', 'Brooklyn, NY 11206'),
+
+    lat: 40.705317,
+    long: -73.932418
+};
+
+let brashOne = {
+    info: oneFunction('BRASH Coffee', 'Coffee Shop' , 'https://goo.gl/maps/TooEeWyWWy1SJUqLA', '0516, 1168 Howell Mill Rd', 'Atlanta, GA 30318'),
+
+    lat: 33.785565,
+    long: -84.411985
+};
+
+let brashTwo = {
+    info: oneFunction('BRASH Coffee', 'Coffee Shop' , 'https://goo.gl/maps/Pygs71ZvfGuKVaZE9', 'Atlanta History Center, 130 West Paces Ferry Rd NW', 'Atlanta, GA 30305'),
+
+    lat: 33.842006,
+    long: -84.386063
+};
+
+let brashThree = {
+    info: oneFunction('Huge x BRASH Coffee', 'Coffee Shop' , 'https://goo.gl/maps/5cyaSDWEy6Rk2bpd9', '1375 Peachtree St NE', 'Atlanta, GA 30309'),
+
+    lat: 33.792540,
+    long: -84.386068
+};
+
+let elementalOne = {
+    info: oneFunction('Elemental Coffee', 'Coffee Shop' , 'https://goo.gl/maps/v6gUCsoroSMggmx27', '815 N Hudson Ave', 'Oklahoma City, OK 73102'),
+
+    lat: 35.475783,
+    long: -97.519473
+};
+
+let clarityOne = {
+    info: oneFunction('Clarity Coffee', 'Coffee Shop' , 'https://goo.gl/maps/V6RecdSUzHcvsKaB7', '431 W Main St', 'Oklahoma City, OK 73102'),
+
+    lat: 35.468003,
+    long: -97.520222
+};
+
+let evokeOne = {
+    info: oneFunction('Café Evoke', 'Coffee Shop' , 'https://goo.gl/maps/ZYzAFzUqGx3aLFEQ9', '3843, 103 S Broadway', 'Edmond, OK 73034'),
+
+    lat: 35.654037,
+    long: -97.481677
+};
+
+let coffeeSlingersOne = {
+    info: oneFunction('Coffee Slingers', 'Coffee Shop' , 'https://goo.gl/maps/eB2QxaKGBj87gYeC6', '1015 N Broadway Ave', 'Oklahoma City, OK 73102'),
+
+    lat: 35.477694,
+    long: -97.514310
+};
+
+let wholeshotOne = {
+    info: oneFunction('Wholeshot Coffee', 'Coffee Shop' , 'https://goo.gl/maps/sxZkRh7FZPvHktsX6', '2200 W Hefner Rd Ste 1', 'The Village, OK 73120'),
+
+    lat: 35.579768,
+    long: -97.552637
+};
+
+let pressOne = {
+    info: oneFunction('Press Coffee Bar', 'Coffee Shop' , 'https://goo.gl/maps/WjkXPpFbGDb6mgqe6', '257 Wayne Ave', 'Dayton, OH 45402'),
+
+    lat: 39.757442,
+    long: -84.182726
+};
+
+let pressTwo = {
+    info: oneFunction('Press Coffee Bar', 'Coffee Shop' , 'https://goo.gl/maps/MXZXHx91XiMM3ABn6', '732 Watervliet Ave', 'Dayton, OH 45420'),
+
+    lat: 39.731035,
+    long: -84.141611
+};
+
+let landlockedOne = {
+    info: oneFunction('Landlocked Social House', 'Coffee Shop, Food, Cocktails' , 'https://goo.gl/maps/RS9HWYpc3PYF2ixd9', '648 E McMillan St.', 'Cincinnati, OH 45206'),
+
+    lat: 39.126425,
+    long: -84.496030
+};
+
+
+
 
 
 
@@ -1086,6 +1193,21 @@ let steadfastOne = {
       [collectiveEspressoOne.info, collectiveEspressoOne.lat, collectiveEspressoOne.long, 127],
       [collectiveEspressoTwo.info, collectiveEspressoTwo.lat, collectiveEspressoTwo.long, 128],
       [steadfastOne.info, steadfastOne.lat, steadfastOne.long, 129],
+      [embassyOne.info, embassyOne.lat, embassyOne.long, 130],
+      [peaksOne.info, peaksOne.lat, peaksOne.long, 131],
+      [pearlOne.info, pearlOne.lat, pearlOne.long, 132],
+      [seyOne.info, seyOne.lat, seyOne.long, 133],
+      [brashOne.info, brashOne.lat, brashOne.long, 134],
+      [brashTwo.info, brashTwo.lat, brashTwo.long, 135],
+      [brashThree.info, brashThree.lat, brashThree.long, 136],
+      [elementalOne.info, elementalOne.lat, elementalOne.long, 137],
+      [clarityOne.info, clarityOne.lat, clarityOne.long, 138],
+      [evokeOne.info, evokeOne.lat, evokeOne.long, 139],
+      [coffeeSlingersOne.info, coffeeSlingersOne.lat, coffeeSlingersOne.long, 140],
+      [wholeshotOne.info, wholeshotOne.lat, wholeshotOne.long, 141],
+      [pressOne.info, pressOne.lat, pressOne.long, 142],
+      [pressTwo.info, pressTwo.lat, pressTwo.long, 143],
+      [landlockedOne.info, landlockedOne.lat, landlockedOne.long, 144]
     ];
 
   let map = new google.maps.Map(document.getElementById('map'), {

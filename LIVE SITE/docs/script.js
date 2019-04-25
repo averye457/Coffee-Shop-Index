@@ -291,8 +291,8 @@ let stumptownTwo = {
 let stumptownThree = {
     info: oneFunction('Stumptown Coffee Roasters<br />(in the Ace Hotel)', 'Coffee Shop', 'https://goo.gl/maps/PhotyaL7WcC2', '1026 SE Stark St', 'Portland, OR 97214'),
 
-    lat: 45.519155,
-    long: -122.655086
+    lat: 45.522034,
+    long: -122.681717
 };
 
 let stumptownFour = {
@@ -436,7 +436,7 @@ let messengerOne = {
 };
 
 let persephoneOne = {
-    info: oneFunction('Pesephone Bakery', 'Coffee Shop & Bakery', 'https://goo.gl/maps/7LFXj148GH12', '145 E Broadway Ave', 'Jackson, WY 83001'),
+    info: oneFunction('Persephone Bakery', 'Coffee Shop & Bakery', 'https://goo.gl/maps/7LFXj148GH12', '145 E Broadway Ave', 'Jackson, WY 83001'),
 
     lat: 43.479765,
     long: -110.760006
@@ -1037,6 +1037,139 @@ let landlockedOne = {
     long: -84.496030
 };
 
+let elmOne = {
+    info: oneFunction('Elm Coffee Roasters', 'Coffee Shop' , 'https://goo.gl/maps/9ZjjhzsbYGc6RrgU7', '240 2nd Ave S #103', 'Seattle, WA 98104'),
+
+    lat: 47.600137,
+    long: -122.331071
+};
+
+let elmTwo = {
+    info: oneFunction('Elm Coffee Roasters', 'Coffee Shop' , 'https://goo.gl/maps/d7Jj2YT48wbDFNm68', '230 9th Ave N', 'Seattle, WA 98109'),
+
+    lat: 47.620074,
+    long: -122.339466
+};
+
+let analogOne = {
+    info: oneFunction('Analog Coffee', 'Coffee Shop' , 'https://goo.gl/maps/mMM9Yvq2F2c7EVAQ7', '235 Summit Ave E', 'Seattle, WA 98102'),
+
+    lat: 47.620736,
+    long: -122.325435
+};
+
+let victrolaOne = {
+    info: oneFunction('Victrola Coffee Roasters', 'Coffee Shop' , 'https://goo.gl/maps/EEuEsDyn7bg1aP7F9', '310 E Pike St', 'Seattle, WA 98122'),
+
+    lat: 47.614324,
+    long: -122.327287
+};
+
+let tougoOne = {
+    info: oneFunction('Tougo Coffee', 'Coffee Shop' , 'https://goo.gl/maps/M9tK2Wwves58845A7', '860 Yesler Way', 'Seattle, WA 98104'),
+
+    lat: 47.601834,
+    long: -122.321171
+};
+
+let porchlightOne = {
+    info: oneFunction('Porchlight Coffee & Records', 'Coffee & Records Shop' , 'https://goo.gl/maps/gKSsbzKC7R9Y68rb9', '1517 14th Ave', 'Seattle, WA 98122'),
+
+    lat: 47.614695,
+    long: -122.314407
+};
+
+let goodOne = {
+    info: oneFunction('Good Coffee', 'Coffee Shop' , 'https://goo.gl/maps/ewQP2e6dZDpCq1XF9', '1150 SE 12th Ave', 'Portland, OR 97214'),
+
+    lat: 45.514470,
+    long: -122.653443
+};
+
+let goodTwo = {
+    info: oneFunction('Good Coffee', 'Coffee Shop' , 'https://goo.gl/maps/C1MF6vPJ2Fq2mLU77', '4747 SE Division St', 'Portland, OR 97206'),
+
+    lat: 45.505490,
+    long: -122.613600
+};
+
+let goodThree = {
+    info: oneFunction('Good Coffee', 'Coffee Shop' , 'https://goo.gl/maps/vFdt6BkpUk4136cU7', '2175 NW Raleigh St #106', 'Portland, OR 97210'),
+
+    lat: 45.534468,
+    long: -122.696251
+};
+
+let goodFour = {
+    info: oneFunction('Good Coffee', 'Coffee Shop' , 'https://goo.gl/maps/bFAkzongkDVrVmLQ8', '813 SW Alder St', 'Portland, OR 97205'),
+
+    lat: 45.520464,
+    long: -122.680517
+};
+
+let coavaOne = {
+    info: oneFunction('Coava Coffee Roasters', 'Coffee Shop' , 'https://goo.gl/maps/cnmCLn8YFgnZB5Zb8', '1300 Southeast Grand Avenue', 'Portland, OR 97214'),
+
+    lat: 45.513553,
+    long: -122.660600
+};
+
+let coavaTwo = {
+    info: oneFunction('Coava Coffee Roasters', 'Coffee Shop' , 'https://goo.gl/maps/qHuHLo1PJ5t4i2qX7', '2631 SE Hawthorne Blvd', 'Portland, OR 97214'),
+
+    lat: 45.512193,
+    long: -122.638520
+};
+
+let coavaThree = {
+    info: oneFunction('Coava Public Brew Bar & Roastery', 'Coffee Shop & Roastery' , 'https://goo.gl/maps/LKLRKG647KGa82u67', '1015 SE Main St', 'Portland, OR 97214'),
+
+    lat: 45.513553,
+    long: -122.660600
+};
+
+let coavaFour = {
+    info: oneFunction('Coava Coffee Roasters', 'Coffee Shop' , 'https://goo.gl/maps/RsZ28Nyf2vZE9Myx5', '400 West Broadway', 'San Diego, CA 92101'),
+
+    lat: 32.715911,
+    long: -117.167259
+};
+
+let coavaFive = {
+    info: oneFunction('Coava Coffee Roasters', 'Coffee Shop' , 'https://goo.gl/maps/PpEc9xRtKHkexMSV6', '1171 SW Jefferson St', 'Portland, OR 97201'),
+
+    lat: 45.516656,
+    long: -122.686034
+};
+
+let upperLeftOne = {
+    info: oneFunction('Upper Left Roasters', 'Coffee Shop' , 'https://goo.gl/maps/gqzRQTPYiGLDS9dr9', '555 SW Morrison St Suite 100', 'Portland, OR 97204'),
+
+    lat: 45.519164,
+    long: -122.678066
+};
+
+let upperLeftTwo = {
+    info: oneFunction('Upper Left Roasters', 'Coffee Shop' , 'https://goo.gl/maps/6oQzMMTDizcqrAnL9', '1204 SE Clay St', 'Portland, OR 97214'),
+
+    lat: 45.511372,
+    long: -122.653423
+};
+
+let camberOne = {
+    info: oneFunction('Camber   ', 'Coffee Shop' , 'https://goo.gl/maps/FCnzF7CFpLHCVPL29', '221 W Holly St', 'Bellingham, WA 98225'),
+
+    lat: 48.750839,
+    long: -122.481257
+};
+
+let neckarOne = {
+    info: oneFunction('Neckar Coffee', 'Coffee Shop' , 'https://goo.gl/maps/yGwHrokzx7p9iye18', '117 S 10th St', 'Boise, ID 83702'),
+
+    lat: 43.616570,
+    long: -116.206554
+};
+
 
 
 
@@ -1207,7 +1340,26 @@ let landlockedOne = {
       [wholeshotOne.info, wholeshotOne.lat, wholeshotOne.long, 141],
       [pressOne.info, pressOne.lat, pressOne.long, 142],
       [pressTwo.info, pressTwo.lat, pressTwo.long, 143],
-      [landlockedOne.info, landlockedOne.lat, landlockedOne.long, 144]
+      [landlockedOne.info, landlockedOne.lat, landlockedOne.long, 144],
+      [elmOne.info, elmOne.lat, elmOne.long, 145],
+      [elmTwo.info, elmTwo.lat, elmTwo.long, 146],
+      [analogOne.info, analogOne.lat, analogOne.long, 147],
+      [victrolaOne.info, victrolaOne.lat, victrolaOne.long, 148],
+      [tougoOne.info, tougoOne.lat, tougoOne.long, 149],
+      [porchlightOne.info, porchlightOne.lat, porchlightOne.long, 150],
+      [goodOne.info, goodOne.lat, goodOne.long, 151],
+      [goodTwo.info, goodTwo.lat, goodTwo.long, 152],
+      [goodThree.info, goodThree.lat, goodThree.long, 153],
+      [goodFour.info, goodFour.lat, goodFour.long, 154],
+      [coavaOne.info, coavaOne.lat, coavaOne.long, 155],
+      [coavaTwo.info, coavaTwo.lat, coavaTwo.long, 156],
+      [coavaThree.info, coavaThree.lat, coavaThree.long, 157],
+      [coavaFour.info, coavaFour.lat, coavaFour.long, 158],
+      [coavaFive.info, coavaFive.lat, coavaFive.long, 159],
+      [upperLeftOne.info, upperLeftOne.lat, upperLeftOne.long, 160],
+      [upperLeftTwo.info, upperLeftTwo.lat, upperLeftTwo.long, 161],
+      [camberOne.info, camberOne.lat, camberOne.long, 162],
+      [neckarOne.info, neckarOne.lat, neckarOne.long, 162]
     ];
 
   let map = new google.maps.Map(document.getElementById('map'), {

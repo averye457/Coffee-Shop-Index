@@ -8,12 +8,6 @@ function initMap() {
 
 
 
-
-
-
-
-
-
 	let dailyOffOne = {
 		info: oneFunction('Barista Social', 'Coffee Shop', 'https://goo.gl/maps/HXQC8yGDfnE2', '29 W Main St', 'Lexington, KY 40507'),
 
@@ -167,13 +161,6 @@ function initMap() {
 
     lat: 36.142450,
     long: -86.800090
-};
-
-  let revelatorEight = {
-    info: oneFunction('Revelator Coffee Company', 'Coffee Shop', 'https://goo.gl/maps/iayp7eR8fYD2', '550 King St #150', 'Charleston, SC 29403'),
-
-    lat: 32.792450,
-    long: -79.940480
 };
 
 let heartOne = {
@@ -1170,6 +1157,168 @@ let neckarOne = {
     long: -116.206554
 };
 
+let alpineOne = {
+    info: oneFunction('Alpine Modern', 'Coffee Shop' , 'https://goo.gl/maps/8zKyk86ZbDBNnPMBA', '904 College Ave', 'Boulder, CO 80302'),
+
+    lat: 40.007128,
+    long: -105.281731
+};
+
+let alpineTwo = {
+    info: oneFunction('Alpine Modern', 'Coffee Shop' , 'https://goo.gl/maps/vTmvKZDGCThES7v19', '1048 Pearl Street', 'Boulder, CO 80302'),
+
+    lat: 40.017397,
+    long: -105.281868
+};
+
+let oddlyCorrectOne = {
+    info: oneFunction('Oddly Correct', 'Coffee Tasting Room' , 'https://goo.gl/maps/Mqwy1vu6urBfNZpHA', '3940 Main St', 'Kansas City, MO 64111'),
+
+    lat: 39.055426,
+    long: -94.586364
+};
+
+let civilHouseOne = {
+    info: oneFunction('Civil House Coffee', 'Coffee Shop' , 'https://goo.gl/maps/PL7GZkNvxy9PJ1aP9', '344 N Rose St', 'Kalamazoo, MI 49007'),
+
+    lat: 42.294341,
+    long: -85.584513
+};
+
+let pipersOne = {
+    info: oneFunction('Pipers Tea & Coffee', 'Coffee & Tea Shop' , 'https://goo.gl/maps/PL7GZkNvxy9PJ1aP9', '3121 Broadway St', 'Paducah, KY 42001'),
+
+    lat: 37.070814,
+    long: -88.637770
+};
+
+let rallyOne = {
+    info: oneFunction('Rally Coffee Co.', 'Coffee Shop' , 'https://goo.gl/maps/4hp7axXYXAAbMBtN9', '749 N 14th St', 'Omaha, NE 68102'),
+
+    lat: 41.267037,
+    long: -95.934163
+};
+
+let proudMaryOne = {
+    info: oneFunction('Proud Mary Cafe', 'Coffee Shop & Cafe' , 'https://goo.gl/maps/PhGkXertzRRs9eJX8', '2012 NE Alberta St', 'Portland, OR 97211'),
+
+    lat: 45.558895,
+    long: -122.644411
+};
+
+let horizonLineOne = {
+    info: oneFunction('Horizon Line Coffee', 'Coffee Shop' , 'https://goo.gl/maps/eZKwBMTvPby94Sh96', '1417 Walnut St B', 'Des Moines, IA 50309'),
+
+    lat: 41.583714,
+    long: -93.635523
+};
+
+let tempestOne = {
+    info: oneFunction('Tempest Coffee Collective', 'Coffee Shop' , 'https://goo.gl/maps/jxFs3iqvVaWzGyEY6', '181 South Riverheath Way #1100', 'Appleton, WI 54915'),
+
+    lat: 44.261235,
+    long: -88.386880
+};
+
+let blkmrktOne = {
+    info: oneFunction('BLK / MRKT', 'Coffee Shop' , 'https://goo.gl/maps/pdwymUeRYqzYt9FD8', '144 Hall St', 'Traverse City, MI 49684'),
+
+    lat: 44.765351,
+    long: -85.627026
+};
+
+let stonefruitOne = {
+    info: oneFunction('Stonefruit Espresso + Kitchen', 'Coffee Shop' , 'https://goo.gl/maps/moQ96gAWTQg9hMe98', '1058 Bedford Ave', 'Brooklyn, NY 11205'),
+
+    lat: 40.688794,
+    long: -73.955308
+};
+
+let comebackOne = {
+    info: oneFunction('Comeback Coffee', 'Coffee Shop' , 'https://goo.gl/maps/NoTPwoQL9B2mTk8A6', '358 N Main St', 'Memphis, TN 38103'),
+
+    lat: 35.154519,
+    long: -90.048790
+};
+
+let rostOne = {
+    info: oneFunction('rost coffee', 'Coffee Shop' , 'https://goo.gl/maps/mdQ78ybFJySEtLuH9', '13 W 2nd St', 'Chillicothe, OH 45601'),
+
+    lat: 39.334558,
+    long: -82.983037
+};
+
+let provisionOne = {
+    info: oneFunction('Provision', 'Coffee Bar' , 'https://goo.gl/maps/djPfCFu7CxZbChRS8', '4501 N 32nd St', 'Phoenix, AZ 85018'),
+
+    lat: 33.502797,
+    long: -112.012485
+};
+
+let prospectOne = {
+    info: oneFunction('Prospect Coffee Roasters', 'Coffee Shop' , 'https://goo.gl/maps/54Y8WCG6PeQteAdK7', '92 S Laurel St', 'Ventura, CA 93001'),
+
+    lat: 34.279761,
+    long: -119.285281
+};
+
+let sweetBloomOne = {
+    info: oneFunction('Sweet Bloom Coffee Roasters', 'Coffee Shop & Roastery' , 'https://goo.gl/maps/uHr6yQz1ayFwfffRA', '1619 Reed St', 'Lakewood, CO 80214'),
+
+    lat: 39.742334,
+    long: -105.074827
+};
+
+let edisonOne = {
+    info: oneFunction('Edison Coffee Co.', 'Coffee Shop' , 'https://goo.gl/maps/AFTxhVfssUwa8onU8', '420 Parker Square Rd', 'Flower Mound, TX 75028'),
+
+    lat: 33.039528,
+    long: -97.050760
+};
+
+let madcapOne = {
+    info: oneFunction('Madcap Coffee', 'Coffee Shop' , 'https://goo.gl/maps/AQ1jTQ6DtUBHSZsp8', '1041 Fulton St E', 'Grand Rapids, MI 49503'),
+
+    lat: 42.963027,
+    long: -85.642952
+};
+
+let madcapTwo = {
+    info: oneFunction('Madcap Coffee', 'Coffee Shop' , 'https://goo.gl/maps/sPn9CWuXCr5zUeH29', '98 Monroe Center St NW', 'Grand Rapids, MI 49503'),
+
+    lat: 42.965187,
+    long: -85.669993
+};
+
+let madcapThree = {
+    info: oneFunction('Madcap Coffee', 'Coffee Shop' , 'https://goo.gl/maps/GzT3sjwXj4oPcUAA6', '435 Ionia Ave SW', 'Grand Rapids, MI 49503'),
+
+    lat: 42.955010,
+    long: -85.670727
+};
+
+let madcapFour = {
+    info: oneFunction('Madcap Coffee', 'Coffee Shop' , 'https://goo.gl/maps/Jm5qijqvhvNRW8Re6', '1413 Farmer St', 'Detroit, MI 48226'),
+
+    lat: 42.334703,
+    long: -83.048102
+};
+
+let theDailyOne = {
+    info: oneFunction('The Daily', 'Cafe' , 'https://goo.gl/maps/PreN7ca4ERuB2n3A8', '222 Main St Suite 140', 'Salt Lake City, UT 84101'),
+
+    lat: 40.764397,
+    long: -111.891560
+};
+
+let guilderOne = {
+    info: oneFunction('Guilder', 'Coffee Shop' , 'https://goo.gl/maps/bcz3tRJp8zxHLpudA', '2393 NE Fremont St Suite B', 'Portland, OR 97212'),
+
+    lat: 45.548337,
+    long: -122.641409
+};
+
+
 
 
 
@@ -1217,7 +1366,6 @@ let neckarOne = {
       [revelatorFive.info, revelatorFive.lat, revelatorFive.long, 19],
       [revelatorSix.info, revelatorSix.lat, revelatorSix.long, 20],
       [revelatorSeven.info, revelatorSeven.lat, revelatorSeven.long, 21],
-      [revelatorEight.info, revelatorEight.lat, revelatorEight.long, 22],
       [heartOne.info, heartOne.lat, heartOne.long, 23],
       [heartTwo.info, heartTwo.lat, heartTwo.long, 24],
       [heartThree.info, heartThree.lat, heartThree.long, 25],
@@ -1359,7 +1507,30 @@ let neckarOne = {
       [upperLeftOne.info, upperLeftOne.lat, upperLeftOne.long, 160],
       [upperLeftTwo.info, upperLeftTwo.lat, upperLeftTwo.long, 161],
       [camberOne.info, camberOne.lat, camberOne.long, 162],
-      [neckarOne.info, neckarOne.lat, neckarOne.long, 162]
+      [neckarOne.info, neckarOne.lat, neckarOne.long, 163],
+      [alpineOne.info, alpineOne.lat, alpineOne.long, 164],
+      [alpineTwo.info, alpineTwo.lat, alpineTwo.long, 165],
+      [oddlyCorrectOne.info, oddlyCorrectOne.lat, oddlyCorrectOne.long, 166],
+      [civilHouseOne.info, civilHouseOne.lat, civilHouseOne.long, 167],
+      [pipersOne.info, pipersOne.lat, pipersOne.long, 168],
+      [rallyOne.info, rallyOne.lat, rallyOne.long, 169],
+      [proudMaryOne.info, proudMaryOne.lat, proudMaryOne.long, 170],
+      [horizonLineOne.info, horizonLineOne.lat, horizonLineOne.long, 171],
+      [tempestOne.info, tempestOne.lat, tempestOne.long, 172],
+      [blkmrktOne.info, blkmrktOne.lat, blkmrktOne.long, 173],
+      [stonefruitOne.info, stonefruitOne.lat, stonefruitOne.long, 174],
+      [comebackOne.info, comebackOne.lat, comebackOne.long, 175],
+      [rostOne.info, rostOne.lat, rostOne.long, 176],
+      [provisionOne.info, provisionOne.lat, provisionOne.long, 177],
+      [prospectOne.info, prospectOne.lat, prospectOne.long, 178],
+      [sweetBloomOne.info, sweetBloomOne.lat, sweetBloomOne.long, 179],
+      [edisonOne.info, edisonOne.lat, edisonOne.long, 180],
+      [madcapOne.info, madcapOne.lat, madcapOne.long, 181],
+      [madcapTwo.info, madcapTwo.lat, madcapTwo.long, 182],
+      [madcapThree.info, madcapThree.lat, madcapThree.long, 183],
+      [madcapFour.info, madcapFour.lat, madcapFour.long, 184],
+      [theDailyOne.info, theDailyOne.lat, theDailyOne.long, 185],
+      [guilderOne.info, guilderOne.lat, guilderOne.long, 186],
     ];
 
   let map = new google.maps.Map(document.getElementById('map'), {
